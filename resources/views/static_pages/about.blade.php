@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Weibo App</title>
-</head>
-<body>
-  <h1>关于页Vegaliu</h1>
-</body>
-</html>
+@extends('layouts.default')
+@section('title', 'About us')
+
+@section('content')
+  <h1>关于页-by Vegaliu</h1>
+@stop
